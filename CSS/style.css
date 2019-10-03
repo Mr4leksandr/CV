@@ -1,0 +1,145 @@
+:root{
+    --primary-color: #394a6d;
+    --dark-green: #3c9d9b;
+    --green: #52de97;
+    --light-green: #c0ffb3;
+}
+
+
+
+.top-conteiner{
+    background-color: #52de97;
+    height: 600px;
+}
+
+.mid-conteiner{
+    width: 75%;
+    height: 600px;
+    margin: auto;
+}
+
+.profile{
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.skill{
+    position: relative;
+    margin: auto;
+}
+
+.cloud-wrapper{
+    position: relative;
+    height: 600px;
+    width: 700px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+
+
+
+
+img{
+    position: absolute;
+}
+
+.face{
+    height: 100px;
+    top: 40px;
+    left: 47%;
+}
+
+.home{
+    height: 100px;
+    top: 970px;
+    left: 48%;
+}
+
+.mountain{
+    left: 7%;
+    bottom: 1%;
+}
+
+.cloud1{
+    left: 10%;
+    top: 30%;
+    animation-name: cloud1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.cloud2{
+    right: 10%;
+    top: 10%;
+    animation-name: cloud2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.cloud3{
+    right: 15%;
+    top: 45%;
+    animation-name: cloud3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud1{
+    0%{left: 100px}
+    50%{left: 250px;}
+    100%{top: 100px}
+    }
+
+@keyframes cloud2{
+    0%{right: 50px}
+    50%{right: 100px;}
+    100%{top: 100px}
+    }
+
+@keyframes cloud3{
+    0%{right: 50px}
+    50%{right: 200px;}
+    100%{top: 250px}
+    }
+
+
+
+
+
+h1, h2, h3{
+    position: absolute;
+    text-align: center;
+    color: #3c9d9b;
+    font-family: 'Mansalva', cursive;
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    color: #3c9d9b;
+    font-family: 'Mansalva', cursive;
+}
+
+.name{
+    left: 36%;
+    top: 5%;
+}
+
+.hello{
+    font-size: 4rem;
+    left: 45%;
+    top: 100px;
+}
+
+.text1{
+    left: 43%;
+    top: 15%;
+}
+
+.text2{
+    left: 30%;
+    top: 230px;
+    text-align: center;
+}
